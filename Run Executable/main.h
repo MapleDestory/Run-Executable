@@ -1,13 +1,15 @@
 #pragma once
 
-/* ---------------------------------------------------------------
+/* 
  * Copying (C) 2021 . All rights reserved
  * 
  * Projects: Run Executable
  * Compiler: Visual Studio 2017 Sdk 10.0.18362.0
  * 
- * Source: 
+ * Source: https://github.com/MapleDestory/Run-Executable
+ * Create: M4pCoDE
  *
+ * Last modify: 2021/03/31 03:12 AM
  */
 
 #ifndef WIN32_LEAN_AND_MEAN
