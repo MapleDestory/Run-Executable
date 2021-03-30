@@ -105,8 +105,8 @@ MAPPER_API bool Mapper::LoadRaw(unsigned char* lpData)
 			static_cast<void*>(lpData + SectionHeader->PointerToRawData), SectionHeader->SizeOfRawData);
 	}
 
-	Data = std::vector<BYTE>(reinterpret_cast<LPBYTE>(lpMapping),
-		reinterpret_cast<LPBYTE>(lpMapping) + NtHeaders->OptionalHeader.SizeOfImage);
+	Data = std::vector<unsigned char>(static_cast<unsigned char*>(lpMapping),
+		static_cast<unsigned char*>(lpMapping) + NtHeaders->OptionalHeader.SizeOfImage);
 
 	if (lpMapping)
 		UnmapViewOfFile(lpMapping);

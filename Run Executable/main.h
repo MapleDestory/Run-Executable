@@ -1,5 +1,15 @@
 #pragma once
 
+/* ---------------------------------------------------------------
+ * Copying (C) 2021 . All rights reserved
+ * 
+ * Projects: Run Executable
+ * Compiler: Visual Studio 2017 Sdk 10.0.18362.0
+ * 
+ * Source: 
+ *
+ */
+
 #ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
